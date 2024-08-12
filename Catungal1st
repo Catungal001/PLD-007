@@ -1,0 +1,9 @@
+ This is a simple Python script that prints a greeting.
+
+def greet(name):
+    print(f"Hello, {name}! Welcome to my first GitHub repository.")
+
+ Main execution
+if __name__ == "__main__":
+    # You can change the name here to greet someone else
+    greet("Kerwin")
