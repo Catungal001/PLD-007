@@ -44,7 +44,7 @@ int main()
 	}
 	
 	
-	return 10;
+	return 0;
 	
 	
 	
