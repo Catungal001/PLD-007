@@ -20,16 +20,15 @@ int binarySearch(const std::vector<int>& arr, int target) {
 }
 
 int main() {
-    std::vector<int> arr = {1, 3, 5, 7, 11, 13, 15, 17, 21, 23, 25, 27, 32, 46};
+    vector<int> arr = {1, 3, 5, 7, 11, 13, 15, 17, 21, 23, 25, 27, 32, 46};
     int target = 17;
 
     int result = binarySearch(arr, target);
     if (result != -1) {
-        std::cout << "Element found at index: " << result << std::endl;
+        std::cout << "Element found at index: " << result <<endl;
     } else {
-        std::cout << "Element not found in the list" << std::endl;
+        cout << "Element not found in the list" <<endl;
     }
 
     return 0;
 }
-
